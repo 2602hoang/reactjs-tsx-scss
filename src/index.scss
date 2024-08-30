@@ -10,7 +10,10 @@ body {
   width: 100%;
   font-family: var(--font-text);
 }
-
+ul {
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
 }
@@ -933,9 +936,12 @@ li {
         }
         .bottom-section {
           flex-direction: column;
-          // max-width: 90%;
-          right: 1/2;
+          justify-content: center;
           bottom: -80px;
+          .social-icons {
+            justify-content: center;
+            margin: 20px auto;
+          }
         }
       }
     }
@@ -1097,7 +1103,6 @@ li {
       gap: 20px;
       .contact__image-container {
         margin: 0px;
-
         width: 100%;
         height: auto;
         order: 2;
