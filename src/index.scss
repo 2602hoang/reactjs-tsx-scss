@@ -316,7 +316,6 @@ li {
       display: flex;
       height: auto;
       max-width: 540px;
-
       flex-direction: column;
     }
     .section1__buttons {
@@ -334,7 +333,6 @@ li {
         font-size: 16px;
         flex-direction: row;
         line-height: 26px;
-
         font-weight: 500;
       }
       .section1__button--primary {
@@ -363,18 +361,21 @@ li {
       margin: 60px 0 0 0;
       padding: 0px;
       height: auto;
-      width: 100%;
+      width: 95%;
       .section1__text-box {
         display: flex;
         max-width: 95%;
         margin: 65px 0px 0px 8px;
         flex-direction: column;
+        .section1_text-box h1 {
+          font-size: 30px;
+        }
       }
       .section1__buttons {
         display: flex;
         margin: 65px 0px 0px 8px;
         gap: 30px;
-        width: 95%;
+        width: 100%;
         .section1__button {
           width: 189px;
           height: 36px;
@@ -401,10 +402,7 @@ li {
   .section2__container {
     display: flex;
     max-width: 1110px;
-    align-items: center;
     gap: 30px;
-    padding: 0 12px;
-    justify-content: start;
     flex-direction: row;
     .section2__content {
       width: 544px;
@@ -414,7 +412,7 @@ li {
     }
     .section2__cards {
       display: flex;
-      direction: flex-row;
+      direction: row;
       margin-bottom: 30px;
       gap: 30px;
       justify-items: center;
@@ -456,6 +454,7 @@ li {
     .section2__container {
       display: flex;
       max-width: 95%;
+      padding: 0;
       align-items: center;
       gap: 30px;
       justify-content: center;
