@@ -5,9 +5,7 @@ export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    // Function to handle scroll event
     const handleScroll = () => {
-      // Check if the scroll position is greater than a certain value (e.g., 50 pixels)
       if (window.scrollY > 50) {
         setIsScrolled(true);
       } else {
@@ -15,10 +13,7 @@ export const Header = () => {
       }
     };
 
-    // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
-
-    // Remove event listener on cleanup
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import Layout from "../../layout/Layout";
 import bgsection1 from "../../images/panner.png";
 import mobile from "../../images/mobile.png";
